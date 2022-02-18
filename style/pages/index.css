@@ -1,12 +1,11 @@
 /* the super div element */
 #navbar{
-    margin-top:var(--margin-base);
-    margin-left:var(--margin-base);
-    margin-right:var(--margin-base);
-    margin-bottom:var(--margin-base);
+    margin: var(--margin-base);
+
     display:flex;
     flex-direction:column;
-    width:calc(100vw -var(--margin-base)*2);
+
+    width:calc(100vw - var(--margin-base)*2);
     
 }
 /*for each element within the div of class=super execute these rules*/
@@ -20,6 +19,7 @@ div.header > *{
 #header{
     display: flex;
     flex-direction: row;
+
     height:calc(130px*var(--font-factor));
 }
 #h-left{
@@ -37,23 +37,29 @@ div.header > *{
 }
 #h-time{
     width:20%;
+
     display:flex;
     justify-content:center;
 }
 #top{
-    font-size:calc(16px*var(--font-factor));
-    text-align:right;
     display:flex;
     flex-direction:column;
     justify-content:center;
+
+    text-align:right;
+    font-size:calc(16px*var(--font-factor));
 }
 
 /* navigation */
-#nav{
+.navigation{
     display:flex;
     flex-direction:row;
     align-items:center;
 
+}
+
+/* for all child elements in class=navigation execute these rules */
+.navigation > *{
     border: 1px solid var(--border-line);
 }
 .nav-items{
@@ -62,15 +68,16 @@ div.header > *{
     align-items:center;
     justify-content:center;
 
-    text-decoration: none;
     color: var(--font-color);
-    text-decoration: bold;
-    font-size: calc(25px*var(--font-factor));
     font-weight: bolder;
+    font-size: calc(25px*var(--font-factor));
 
-    height:calc(130px*var(--font-factor));
+    text-decoration: none;
+    text-decoration: bold;
+
     border: 1px solid var(--border-line);
 
+    height:calc(130px*var(--font-factor));
     width:25%;
 }
 
