@@ -3,11 +3,39 @@
     1080px by 720px is a factor of 1.35 by 1.309
 
 */
-@media screen and (min-width: 820px){
+/* screen size 800+ rules*/
+@media screen and (min-width: 800px){
     :root{
         --font-factor: 1.35;
         font-size: calc(16px*var(--font-factor));
     }
 }
 
-    
+/* screen size 560+ rules */
+@media screen and (min-width: 560px){
+    :root{
+        --font-factor: 1;
+        --margin-base:2.5%;
+    }
+}
+/* screen size 360+ rules */
+@media screen and (min-width: 360px){
+    :root{
+        --font-factor: 1;
+        --margin-base:2.5%;
+    }
+}
+
+/* screen size 200px + rules */
+@media screen and (max-width: 200px){
+    :root{
+        --margin-base:2.5%;
+    }
+}
+/* screen size 0px + rules */
+@media screen and (min-width:0px){
+    :root{
+        --font-factor: 0.7;
+        --margin-base: 1%;
+    }
+}
