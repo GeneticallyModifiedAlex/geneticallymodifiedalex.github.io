@@ -6,7 +6,7 @@
     margin-bottom:var(--margin-base);
     display:flex;
     flex-direction:column;
-    width:85%;
+    width:calc(100vw -var(--margin-base)*2);
     
 }
 /*for each element within the div of class=super execute these rules*/
@@ -30,7 +30,7 @@ div.header > *{
     justify-content:center;
     align-items:center;
 
-    font-size: calc(50px*var(--font-factor));
+    font-size: calc(60px*var(--font-factor));
 
     border: 1px solid var(--border-line);
     width:60%;
