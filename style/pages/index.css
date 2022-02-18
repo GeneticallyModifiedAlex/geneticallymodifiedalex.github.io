@@ -1,9 +1,9 @@
 /* the super div element */
 #navbar{
-    margin-top:7.5%;
-    margin-left:7.5%;
-    margin-right:7.5%;
-    margin-bottom:7.5%;
+    margin-top:var(--margin-base);
+    margin-left:var(--margin-base);
+    margin-right:var(--margin-base);
+    margin-bottom:var(--margin-base);
     display:flex;
     flex-direction:column;
     width:85%;

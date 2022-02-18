@@ -30,6 +30,8 @@
     background-color: var(--background);
     border-color: var(--border-line);
 
+    --margin-base:7.5%;
+
     /* designed in 800px by 550px
         1080px by 720px is a factor of 1.35 by 1.309
     */
