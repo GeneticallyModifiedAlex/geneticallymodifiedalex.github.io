@@ -22,7 +22,7 @@
     --border-line: var(--base06);
     --font-color: var(--base06);
 
-    --font-factor: calc(100vw/800px);
+    --font-factor: 1.0;
 
     font-size: calc(16px*var(--font-factor));
     color: var(--font-color);

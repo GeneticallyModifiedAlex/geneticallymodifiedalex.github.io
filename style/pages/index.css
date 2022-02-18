@@ -1,0 +1,104 @@
+/* the super div element */
+#navbar{
+    margin-top:7.5%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    margin-bottom:7.5%;
+    display:flex;
+    flex-direction:column;
+    width:85%;
+    
+}
+/*for each element within the div of class=super execute these rules*/
+div.super > * {
+    border: 1px solid var(--border-line);
+}
+div.header > *{
+    border: 1px solid var(--border-line);
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    height:calc(130px*var(--font-factor));
+}
+#h-left{
+    width:20%;
+}
+#h-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size: calc(50px*var(--font-factor));
+
+    border: 1px solid var(--border-line);
+    width:60%;
+}
+#h-time{
+    width:20%;
+    display:flex;
+    justify-content:center;
+}
+#top{
+    font-size:calc(16px*var(--font-factor));
+    text-align:right;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+/* navigation */
+#nav{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+    border: 1px solid var(--border-line);
+}
+.nav-items{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+
+    text-decoration: none;
+    color: var(--font-color);
+    text-decoration: bold;
+    font-size: calc(25px*var(--font-factor));
+    font-weight: bolder;
+
+    height:calc(130px*var(--font-factor));
+    border: 1px solid var(--border-line);
+
+    width:25%;
+}
+
+#nav-1{
+    color: var(--base10);
+}
+#nav-2{
+    color: var(--base11);
+}
+#nav-3{
+    color: var(--base08);
+}
+#nav-4{
+    color: var(--base13);
+}
+#nav-1:hover{
+    color: var(--base07);
+    background: var(--base10);
+}
+#nav-2:hover{
+    color: var(--base07);
+    background: var(--base11);
+}
+#nav-3:hover{
+    color: var(--base07);
+    background: var(--base08);
+}
+#nav-4:hover{
+    color: var(--base07);
+    background: var(--base13);
+}
