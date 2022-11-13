@@ -1,40 +1,6 @@
 :root{
     font-family: 'Roboto', sans-serif;
-
-    --base00: #181818;
-    --base01: #282828;
-    --base02: #383838;
-    --base03: #585858;
-    --base04: #b8b8b8;
-    --base05: #d8d8d8;
-    --base06: #e8e8e8;
-    --base07: #f8f8f8;
-    --base08: #ab4642;
-    --base09: #DC9656;
-    --base10: #f7ca88;
-    --base11: #a1b56c;
-    --base12: #86c1b9;
-    --base13: #7cafc2;
-    --base14: #ba8baf;
-    --base15: #a16946;
-
-    --background: var(--base02);
-    --border-line: var(--base06);
-    --font-color: var(--base06);
-
-    --font-factor: 1.0;
-
-    font-size: calc(16px*var(--font-factor));
-    color: var(--font-color);
-
-    background-color: var(--background);
-    border-color: var(--border-line);
-
-    --margin-base:7.5%;
-
-    /* designed in 800px by 550px
-        1080px by 720px is a factor of 1.35 by 1.309
-    */
+    
 
 
 
