@@ -1,3 +1,69 @@
+:root{
+    font-size: 11px;
+}
 #super{
     display: grid;
+    width: 50%;
+    justify-self: center;
+    padding-left: Calc(20%);
+    padding-right: Calc(20%);
 }
+#content{
+    display: grid;
+    
+}
+
+#header{
+    background-color: black;
+    color: white;
+    display: grid;
+
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2rem;
+}
+#name{align-items: center;}
+#contacts{justify-self: end;}
+#email{justify-self:end;}
+
+h2{
+    font-size: 1.5rem;
+    color:#39A5B7;
+}
+
+.EducationItem{
+    display:flex;
+    flex-direction: row;
+}
+.item:not(:last-child){
+    padding-right: 5px;
+    border-right: 2px solid black;
+
+}
+.item:not(:first-child){
+    padding-left: 5px;
+}
+.EducationOrganisation{font-weight: bolder;}
+.Period{font-style: italic;}
+
+
+.section{display:grid;}
+#Skills{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    height: auto;
+    grid-auto-rows: 80px;
+}
+.skillHeader{
+    color:#39A5B7;
+}
+#languages{grid-row:1/2;}
+#SoftSkills{grid-row:2/3;}
+.skillsTall{grid-row:1/2}
+.skillHeader{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+#soft{margin-bottom: -0.2rem;}
