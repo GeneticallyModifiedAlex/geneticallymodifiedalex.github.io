@@ -49,18 +49,27 @@ h2{
 
 .section{display:grid;}
 #Skills{
+    
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    height: auto;
-    grid-auto-rows: 80px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
 }
 .skillHeader{
     color:#39A5B7;
 }
-#languages{grid-row:1/2;}
-#SoftSkills{grid-row:2/3;}
-.skillsTall{grid-row:1/2}
+#languages{
+    grid-row:span 1;
+    grid-column: 1/2;
+    grid-row-start: 1;
+
+}
+#SoftSkills{
+    grid-row:span 1;
+    grid-column: 1/2;
+    grid-row-start: 2;
+}
+
+.skillsTall{grid-row:span 2}
 .skillHeader{
     margin-top: 0.5rem;
     font-size: 1.5rem;
